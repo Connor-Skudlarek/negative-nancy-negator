@@ -1,3 +1,9 @@
+# -- Negative Nancy Negator .gitignore --
+
+/dist
+
+# -- Ignore patterns for Node.js projects --
+
 # Logs
 logs
 *.log
