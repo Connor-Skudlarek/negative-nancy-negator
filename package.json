@@ -1,0 +1,21 @@
+{
+  "name": "negative-nancy-negator",
+  "version": "0.0.1",
+  "description": "This project is an Automated Content Alignment Regulator (ACAR). It is meant to reduce highly-engaging but undesired content on users' social media feeds, and better align social media recommendation algorithms to the content you actually want rather than what gets maximum engagement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:content": "esbuild src/content/main.ts --bundle --outfile=dist/content.js --target=es2020",
+    "build:worker": "esbuild src/background/service-worker.ts --bundle --outfile=dist/service-worker.js --target=es2020",
+    "build": "npm run build:content && npm run build:worker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.1.27",
+    "esbuild": "0.27.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
