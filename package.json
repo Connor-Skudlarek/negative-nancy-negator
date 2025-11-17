@@ -1,6 +1,6 @@
 {
   "name": "negative-nancy-negator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This project is an Automated Content Alignment Regulator (ACAR). It is meant to reduce highly-engaging but undesired content on users' social media feeds, and better align social media recommendation algorithms to the content you actually want rather than what gets maximum engagement.",
   "main": "index.js",
   "scripts": {
